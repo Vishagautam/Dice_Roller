@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top Left Die -->
+    <group
+        android:translateX="15"
+        android:translateY="15"
+        android:rotation="-15">
+        <!-- Die Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M10,10 h35 a5,5 0 0 1 5,5 v35 a5,5 0 0 1 -5,5 h-35 a5,5 0 0 1 -5,-5 v-35 a5,5 0 0 1 5,-5 z" />
+        <!-- Pips (Value 5) -->
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M18,18 a3,3 0 1 1 0,0.1 z M42,18 a3,3 0 1 1 0,0.1 z M30,30 a3,3 0 1 1 0,0.1 z M18,42 a3,3 0 1 1 0,0.1 z M42,42 a3,3 0 1 1 0,0.1 z" />
+    </group>
+
+    <!-- Bottom Right Die -->
+    <group
+        android:translateX="45"
+        android:translateY="45"
+        android:rotation="15">
+        <!-- Die Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M10,10 h35 a5,5 0 0 1 5,5 v35 a5,5 0 0 1 -5,5 h-35 a5,5 0 0 1 -5,-5 v-35 a5,5 0 0 1 5,-5 z" />
+        <!-- Pips (Value 3) -->
+        <path
+            android:fillColor="#7C3AED"
+            android:pathData="M15,15 a3,3 0 1 1 0,0.1 z M30,30 a3,3 0 1 1 0,0.1 z M45,45 a3,3 0 1 1 0,0.1 z" />
+    </group>
+</vector>
